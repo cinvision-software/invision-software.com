@@ -1,61 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Invision Software</title>
-  <style>
-    body { font-family: sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
-    header { background: #111; color: #fff; padding: 2rem; text-align: center; }
-    header h1 { margin: 0; font-size: 2.5rem; }
-    header p { font-size: 1.2rem; margin-top: 0.5rem; }
-    .cta { text-align: center; padding: 2rem; background: #fff; }
-    .cta a { padding: 0.75rem 1.5rem; background: #0077cc; color: white; text-decoration: none; border-radius: 4px; font-weight: bold; }
-    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; padding: 2rem; background: #f0f0f0; }
-    .service { background: white; padding: 1rem; border-radius: 6px; box-shadow: 0 0 8px rgba(0,0,0,0.05); }
-    .testimonial { background: white; padding: 2rem; text-align: center; font-style: italic; }
-    .contact { background: #222; color: white; text-align: center; padding: 2rem; }
-    footer { background: #111; color: #aaa; text-align: center; padding: 1rem; font-size: 0.8rem; }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invision Software</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f9f9f9;
+        color: #333;
+      }
+      header {
+        background: #111;
+        color: #fff;
+        padding: 2rem;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+      }
+      header p {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+      }
+      .cta {
+        text-align: center;
+        padding: 2rem;
+        background: #fff;
+      }
+      .cta a {
+        padding: 0.75rem 1.5rem;
+        background: #0077cc;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: bold;
+      }
+      .services {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.5rem;
+        padding: 2rem;
+        background: #f0f0f0;
+      }
+      .service {
+        background: white;
+        padding: 1rem;
+        border-radius: 6px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+      }
+      .testimonial {
+        background: white;
+        padding: 2rem;
+        text-align: center;
+        font-style: italic;
+      }
+      .contact {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 2rem;
+      }
+      footer {
+        background: #111;
+        color: #aaa;
+        text-align: center;
+        padding: 1rem;
+        font-size: 0.8rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="logo.svg" alt="Invision Software" style="height: 80px" />
+      <p>We build elegant apps, websites & systems for startups and teams</p>
+    </header>
 
-<header>
-  <h1>Invision Software</h1>
-  <p>We build elegant apps, websites & systems for startups and teams</p>
-</header>
+    <section class="cta">
+      <a href="mailto:christian@invision-software.com"
+        >Book a Free Consultation</a
+      >
+    </section>
 
-<section class="cta">
-  <a href="mailto:hello@invisionsoftware.com">Book a Free Consultation</a>
-</section>
+    <section class="services">
+      <div class="service">
+        <h3>App Development</h3>
+        <p>
+          Custom iOS, Android, and cross-platform apps tailored to your users.
+        </p>
+      </div>
+      <div class="service">
+        <h3>Web Design & Dev</h3>
+        <p>
+          Modern websites built for speed, clarity, and responsive performance.
+        </p>
+      </div>
+      <div class="service">
+        <h3>Database Architecture</h3>
+        <p>
+          Secure, scalable backend solutions that power your business logic.
+        </p>
+      </div>
+    </section>
 
-<section class="services">
-  <div class="service">
-    <h3>App Development</h3>
-    <p>Custom iOS, Android, and cross-platform apps tailored to your users.</p>
-  </div>
-  <div class="service">
-    <h3>Web Design & Dev</h3>
-    <p>Modern websites built for speed, clarity, and responsive performance.</p>
-  </div>
-  <div class="service">
-    <h3>Database Architecture</h3>
-    <p>Secure, scalable backend solutions that power your business logic.</p>
-  </div>
-</section>
+    <!-- <section class="testimonial">
+      <p>
+        “Invision Software transformed our workflow with intuitive, scalable
+        tech.” —
+      </p>
+    </section> -->
 
-<section class="testimonial">
-  <p>“Invision Software transformed our workflow with intuitive, scalable tech.” — Client Name</p>
-</section>
+    <section class="contact">
+      <p>
+        Questions? Let's talk. Email
+        <a href="mailto:christian@invision-software.com" style="color: #3cf"
+          >christian@invision-software.com</a
+        >
+      </p>
+    </section>
 
-<section class="contact">
-  <p>Questions? Let's talk. Email <a href="mailto:hello@invisionsoftware.com" style="color:#3cf;">hello@invisionsoftware.com</a></p>
-</section>
-
-<footer>
-  &copy; 2025 Invision Software. Built with care.
-</footer>
-
-</body>
+    <footer>&copy; 2025 Invision Software. Built with care.</footer>
+  </body>
 </html>
-
